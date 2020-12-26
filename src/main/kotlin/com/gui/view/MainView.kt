@@ -10,7 +10,6 @@ class MainView : View("Figures GUI") {
     private val listController: ShapeListController by inject()
 
     override val root = hbox {
-        listController.downloadShapes(filename)
         hbox(10) {
             menubar {
                 /*menubar has 3 options:
